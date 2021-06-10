@@ -7,6 +7,8 @@ $user="root";
 $password="";
 $dbname="mydb";
 
+//COMMENTARIO PRUEBA GITHUB TEAMS
+
 $con = new mysqli($host, $user, $password, $dbname, $port, $socket)
 	or die ('Could not connect to the database server' . mysqli_connect_error());
 
